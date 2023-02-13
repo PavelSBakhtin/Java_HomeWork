@@ -5,7 +5,7 @@ package homework_2;
 
 import java.util.Scanner;
 
-public class hw3_task3 {
+public class hw2_task3 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter some text: ");
