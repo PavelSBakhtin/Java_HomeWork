@@ -11,7 +11,9 @@ public class hw2_task3 {
         System.out.print("Enter some text: ");
         String input = scan.nextLine();
         scan.close();
+        System.out.println("Is the string a palindrome?");
         boolean res = isPal(input);
+        System.out.print("Answer: ");
         System.out.println(res);
     }
     public static Boolean isPal(String s) {
